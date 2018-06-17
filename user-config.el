@@ -1,8 +1,10 @@
 ;;; loaded from init.el
 
+; I search windows by title in notion, so put emacs into the window title.
 (setq frame-title-format "emacs: %b")
 (setq icon-title-format "emacs: %b")
 
+; linux kernel recommendation, I think.
 (defun custom-c-mode-hook ()
   (setq-local c-basic-offset 8)
   (setq-local tab-width 8)
