@@ -11,10 +11,10 @@
    '(mu4e-use-fancy-chars nil)
 
    '(message-send-mail-function (quote message-send-mail-with-sendmail))
+   '(message-citation-line-function (quote message-insert-formatted-citation-line))
    ;;'(send-mail-function (quote mailclient-send-it))
    '(user-full-name "Moritz Wilhelmy")
  ))
-
 ;; defines mu4e-maildir and mail-host-address, which are none of your business.
 ;; I might put something more secret in there, I guess, so it's nice to have.
 (try-loading-file "~/.spacemacs.d/personal.el") 
